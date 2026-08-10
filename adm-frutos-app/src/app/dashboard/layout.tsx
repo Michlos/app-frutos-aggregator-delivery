@@ -16,19 +16,19 @@ export default function DashboardLayout({
 
                 <nav className="space-y-2">
 
-                    /dashboard
-                        Dashboard
+                    <Link href="/dashboard">
+                    Dashboard
                     </Link>
 
                     <br />
 
-                    /stores
-                        Lojas
+                    <Link href="/stores">
+                    Lojas
                     </Link>
                     
                     <br />
 
-                    /deliveries
+                    <Link href="/deliveries">
                         Deliveries
                     </Link>
 
